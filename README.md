@@ -6,7 +6,7 @@ Build a timed coding quiz with multiple-choice questions. This app will run in t
 
 ## User Story
 
-**AS AN** coding boot camp student
+**AS A** coding boot camp student
 
 **I WANT** to take a timed quiz on JavaScript fundamentals that stores high scores
 

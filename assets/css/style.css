@@ -12,17 +12,43 @@
 
 }
 
-/* enter button clears to details box which clears to quiz */
+
+/* enter button clears to details box which clears to quiz box */
 
 .enter_btn,
-.details_box{
+.details_box,
+.details_title,
+.details_list{
     position: absolute;
     top: 50%; /* moves box to middle of the browser*/
     left: 50%; /* moves enter button & detail box to middle of the broswer */
     transform: translate(-50%, -50%);//* reposition box to true center */
-    
-    
-  
+}
+
+/* enter button for site */
+/* add gemstone? */
+.enter_btn button {
+    padding: 15px 30px;
+    outline: none;
+    border: none;
+    background: #fff;
+    cursor: pointer;
+}
+
+.details_box{
+    width: 540px;
+    background: #fff;
+    border-radius: 5px;
+    transform: translate(-50%, -50%) scale(1);
+    opacity: 0;
+    pointer-events: none;
+    transition: all 0.3s ease;
+}
+
+.next_btn button {
+    padding: 5px;
+    background: #fff;
+    cursor: pointer;
 }
 
 body {

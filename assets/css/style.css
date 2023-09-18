@@ -1,0 +1,27 @@
+/* Universal Selectors */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family:'Raleway';
+    color: black;
+    background-color: white;
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/* want to use custom font in project. Downloaded fonts in ../fonts and linked through src:url */
+/*@font-face specifies the font data */
+
+@font-face {
+    font-family: 'Raleway';
+    src: url('../fonts/Raleway-ExtraLight.ttf')
+     format('truetype'); /*font ttf */
+
+}

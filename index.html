@@ -8,52 +8,50 @@
     <title>JavaScript GemsStones | Timed Quiz</title>
 </head>
 
+<body>
+
+    <!-- jewels/gems are correct answers, stones are wrong answers - want to compile correct # of answers, incorrect # of answers, and time left to the score. -->
+
+
+<header>
+    <!-- I want the highscores in the header, along with the nav bar (Boostrap for icons or CSS?) -->
+    
+    <!-- highscores - gemscores -->
+        <div class = "gemscores">
+            <a id = "gemscores-link">View High Gemscores</a>
+        </div>
+      
+</header>
 
 <!-- creating enter quiz button for site - will lead into quiz rules -->
 <div class = "enter_btn"> <button>ENTER</button></div>
 
 <!-- quiz information box. using current breakdown for preliminary code-->
 
-<section id ="details_box">
+<section class ="details_box">
     <div class ="details_title"><span>Jewels & Stones | Rules</span></div>
     <div class ="details_list">
         <div class = "info"> 1. You will have <span>10 seconds</span> to select the correct gem</div>
         <div class = "info"> 2. Selecting an incorrect gem (stone) reduces your allocated time</div>
-        <div class = "info"> 3.  </div>
+        <div class = "info"> 3. Once the timelimit expires, the quiz ends.</div>
+        <div class = "info"> 4. Add your initials to view where you stand in the high gemscores!</div>
     </div>
     <div class ="next_btn"><button>NEXT</button></div>
-
 
 </section>
 
 <!-- quiz box where questions will exist -->
 
-<section id ="quiz_box">
+<section class ="quiz_box">
     <div class ="quiz_title"><span>Jewels & Stones</span></div>
 </section>
 
 
 
-<!-- jewels/gems are correct answers, stones are wrong answers - want to compile correct # of answers, incorrect # of answers, and time left to the score. -->
 
+<footer>
 
-<body>
-
-<header>
-
-<!-- I want the highscores in the header, along with the nav bar (Boostrap for icons or CSS?) -->
-
-<!-- highscores - gemscores -->
-    <div class = "gemscores">
-        <a id = "gemscores-link">View High Gemscores</a>
-    </div>
-
-
-</header>
-
-
-
-
+</footer>
 
 <script src= "./assets/js/questions.js"></script>
 <script src= "./assets/js/script.js"></script>

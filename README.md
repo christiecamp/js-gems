@@ -3,7 +3,8 @@
 </p>
 
 [![License: mit](https://img.shields.io/badge/license-mit-beige)](https://opensource.org/licenses/MIT) 
-[![Canva Badge](https://img.shields.io/badge/canva-peru.svg?&logo=Canva&logoColor=white)](https://canva.com/)
+[![Javascript Badge](https://img.shields.io/badge/javascript-peru.svg?&logo=javascript&logoColor=white)](https://javascript.com/)
+[![Canva Badge](https://img.shields.io/badge/canva-chocolate.svg?&logo=Canva&logoColor=white)](https://canva.com/)
 
 ### ![table-of-contents](./mining-camp/branding/toc.png)
 
@@ -63,7 +64,7 @@
 
 ### ![connect](./mining-camp/branding/7.png)
 
-[![Github Badge](https://img.shields.io/badge/christiecamp-lightyellow.svg?&logo=Github&logoColor=white)](https://github.com/christiecamp/js-gems)
+[![Github Badge](https://img.shields.io/badge/christiecamp-darkred.svg?&logo=Github&logoColor=white)](https://github.com/christiecamp/js-gems)
 
 
 

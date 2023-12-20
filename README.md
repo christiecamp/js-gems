@@ -1,5 +1,5 @@
 <p align="center">
-<img src="./mining-camp/header.png"/>
+<img src="./mining-camp/branding/header.png"/>
 </p>
 
 [![License: mit](https://img.shields.io/badge/license-mit-beige)](https://opensource.org/licenses/MIT) 

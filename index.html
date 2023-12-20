@@ -4,6 +4,7 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Rubik+Gemstones">
         <link rel="stylesheet" href="./assets/css/style.css" />
         <title>JavaScript GemsStones | Timed Quiz</title>
     </head>
@@ -15,18 +16,18 @@
             </nav> 
         </header>
 
-        <section id="container">
+        <section class="container">
             <div id="timer"></div>
-            <div id="gemstone-content">
+            <div class="gems">
                 <h1>Jewels & Stones | Rules</h1>
-                <p id= "info"> 
+                <p id="info"> 
                     1. You will have <span>10 seconds</span> to select the correct gem<br>
                     2. Selecting an incorrect gem (stone) reduces your allocated time<br>
                     3. Once the timelimit expires, the quiz ends.<br>
                     4. Add your initials to view where you stand in the high gemscores!<br>
                 </p>
+                <button class="enter-btn">ENTER</button>
             </div>
-            <button class="btn">ENTER</button>
         </section>
 
         <script src= "./assets/js/questions.js"></script>

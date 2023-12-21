@@ -63,11 +63,8 @@ git clone https://github.com/christiecamp/js-gems.git
       ##### view [demo videos](#demo)
 3. View your gemscore, and all high gemscores by clicking the **High Gemscores** link.
 
-
 ### ![screenshot](./mining-camp/branding/12.png)
-###### coming soon!    
 ### ![demo](./mining-camp/branding/13.png)
-###### coming soon!
 #
 
 ### ![license](./mining-camp/branding/5.png)

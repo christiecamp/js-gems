@@ -27,19 +27,19 @@
 `JAVASCRIPT GEMS` is a timed quiz with multiple-choice questions. This app runs in the browser and features [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML), [CSS](https://www.w3.org/Style/CSS/Overview.en.html#:~:text=What%20is%20CSS%3F,from%20the%20CSS%20working%20group.), and is powered by [JavaScript](https://www.javascript.com/).
 
 ### ![user-story](./mining-camp/branding/9.png)
-<!-- <p align="center">
+<p align="center">
   <img src="./mining-camp/branding/user-story.png"/>
-</p> -->
+</p>
 
 ### ![acceptance-criteria](./mining-camp/branding/10.png)
 <!-- <p align="center">
   <img src="./mining-camp/branding/ac.png"/>
 </p> -->
 
-### ![probe-list](./mining-camp/branding/11.png)
-<!-- <p align="center">
+### ![gem-list](./mining-camp/branding/11.png)
+<p align="center">
   <img src="./mining-camp/branding/gem-list.png"/>
-</p> -->
+</p>
 
 #
 

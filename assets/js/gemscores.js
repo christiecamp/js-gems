@@ -1,5 +1,4 @@
 //highscores
-
 const gems = document.querySelector('.gems');
 const highGemscore = document.querySelector('#highgemscore');
 const back = document.querySelector('#back-btn');

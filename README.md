@@ -6,7 +6,7 @@
 [![Javascript Badge](https://img.shields.io/badge/javascript-peru.svg?&logo=javascript&logoColor=white)](https://javascript.com/)
 [![Canva Badge](https://img.shields.io/badge/canva-chocolate.svg?&logo=Canva&logoColor=white)](https://canva.com/)
 
-[![View Badge](https://img.shields.io/badge/view-darkmode-black.svg?&logo=Github&logoColor=white)]()
+![View Badge](https://img.shields.io/badge/view-darkmode-black.svg?&logo=Github&logoColor=white)
 
 ### ![table-of-contents](./mining-camp/branding/toc.png)
 

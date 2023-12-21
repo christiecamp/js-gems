@@ -50,4 +50,9 @@ const input = [
         choices: [],
         answer: 'answer9'
     },
+    {
+        title: 'question10',
+        choices: [],
+        answer: 'answer10'
+    },
 ];

@@ -6,6 +6,8 @@
 [![Javascript Badge](https://img.shields.io/badge/javascript-peru.svg?&logo=javascript&logoColor=white)](https://javascript.com/)
 [![Canva Badge](https://img.shields.io/badge/canva-chocolate.svg?&logo=Canva&logoColor=white)](https://canva.com/)
 
+[![View Badge](https://img.shields.io/badge/view-darkmode-black.svg?&logo=Github&logoColor=white)]()
+
 ### ![table-of-contents](./mining-camp/branding/toc.png)
 
   - [OVERVIEW](#overview)
@@ -40,17 +42,32 @@
 </p> -->
 
 #
-<!-- 
+
 ### ![installation](./mining-camp/branding/2.png)
+
+##### *Clone the repository in your local development enviornment.*
+
+```
+git clone https://github.com/christiecamp/js-gems.git
+```
 
 #
 
 ### ![usage](./mining-camp/branding/3.png)
 
-### ![screenshot](./mining-camp/branding/12.png)
-        
-### ![demo](./mining-camp/branding/13.png)
+**INSTRUCTIONS:**
 
+1. Open the quiz in your local host browser, or through [github's website link](https://christiecamp.github.io/js-gems/). To clone the repository in your local dev enviornment, follow the [installation](#installation) guidelines.
+
+2. Interact with `JAVASCRIPT GEM's` quiz by answering each question in the allotted time given.
+      ##### view [demo videos](#demo)
+3. View your gemscore, and all high gemscores by clicking the **High Gemscores** link.
+
+
+### ![screenshot](./mining-camp/branding/12.png)
+###### coming soon!    
+### ![demo](./mining-camp/branding/13.png)
+###### coming soon!
 #
 
 ### ![license](./mining-camp/branding/5.png)
@@ -60,7 +77,7 @@
 
 ### ![links](./mining-camp/branding/6.png)
 
-##### [*github repo*](https://github.com/christiecamp/js-gems) -->
+##### [*github repo*](https://github.com/christiecamp/js-gems)
 
 ### ![connect](./mining-camp/branding/7.png)
 

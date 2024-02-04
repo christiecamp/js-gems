@@ -3,7 +3,7 @@ const questions = [
     {
         title: 'High quality opal is more valuable than diamonds',
         choices: ['true', 'false'],
-        answer: 'trye'
+        answer: 'true'
     },
     {
         title: 'which gem has the nickname of "water sapphire"',
@@ -118,11 +118,11 @@ function compare(event) {
         //correct condition
         if (element.textContent == questions[questionIndex].answer) {
             score++;
-            createDiv.textContent = 'correct - the answer is:  ' + questions[questionIndex].answer;
+            createDiv.textContent = 'correct';
         } else {
             //will deduct -10 seconds off time for wrong answers
             timeLeft = timeLeft - penalty;
-            createDiv.textContent = 'wrong - the answer is: ' + questions[questionIndex].answer;
+            createDiv.textContent = 'wrong';
         }
     }
     //question index determines number question user is on

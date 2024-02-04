@@ -82,4 +82,3 @@ git clone https://github.com/christiecamp/js-gems.git
 
 
 
-🚧  under construction - come back soon!🚜

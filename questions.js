@@ -147,22 +147,19 @@ function allDone() {
     var createH1 = document.createElement('h1');
     createH1.setAttribute('id', 'createH1');
     createH1.textContent = 'all done!';
-
     gems.appendChild(createH1);
 
     //paragraph
     var createP = document.createElement('p');
     createP.setAttribute('id', 'createP');
-
     gems.appendChild(createP);
 
-    //time remaining
+    //time remaining replaced with score
     if (timeLeft >= 0) {
         var timeRemaining = timeLeft;
         var createP2 = document.createElement('p');
         clearInterval(holdInterval);
         createP.textContent = 'your final score is: ' + timeRemaining;
-
         gems.appendChild(createP2);
     }
 
@@ -170,7 +167,6 @@ function allDone() {
     var createLabel = document.createElement('label');
     createLabel.setAttribute('id', 'createLabel');
     createLabel.textContent = 'enter your initials: ';
-
     gems.appendChild(createLabel);
 
     //input
@@ -178,7 +174,6 @@ function allDone() {
     createInput.setAttribute('type', 'text');
     createInput.setAttribute('id', 'initials');
     createInput.textContent = '';
-
     gems.appendChild(createInput);
 
     //submit
@@ -186,7 +181,6 @@ function allDone() {
     createSubmit.setAttribute('type', 'submit');
     createSubmit.setAttribute('id', 'submit');
     createSubmit.textContent = 'submit';
-
     gems.appendChild(createSubmit);
 
     //event listener to capture initials and score

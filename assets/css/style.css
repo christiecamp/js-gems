@@ -24,6 +24,28 @@ textarea {
     margin: 20px;
 }
 
+label {
+  margin-right: 10px;
+}
+input {
+  margin-bottom: 20px;
+  width: 50%;
+  border: 1px solid black;
+}
+
+h1 {
+  text-align: center;
+}
+
+li {
+  background-color: lightcoral;
+  margin-top: 10px;
+  padding: 5px 15px;
+  width: 80%;
+  font-size: 18px;
+  color: black;
+}
+
 #container {
   position: absolute;
   left: 30%;
@@ -74,31 +96,10 @@ textarea {
 #submit {
     background-color: lightsalmon;
     margin-left: 33%;
-    padding: 15px 32px;
+    padding: 5px 5px;
     font-size: 20px;
     color: black;
-}
-
-label {
-    margin-right: 10px;
-}
-input {
-    margin-bottom: 20px;
-    width: 50%;
-    border: 1px solid black;
-}
-
-h1 {
     text-align: center;
-}
-
-li {
-    background-color: lightcoral;
-    margin-top: 10px;
-    padding: 5px 15px;
-    width: 80%;
-    font-size: 18px;
-    color: black;
 }
 
 #createDiv {

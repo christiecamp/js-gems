@@ -1,5 +1,5 @@
 //highscores
-const highGemscore = document.querySelector('#highgemscore');
+const highGemscore = document.querySelector('#high');
 const clear = document.querySelector('#clear');
 const back = document.querySelector('#back');
 
@@ -10,14 +10,14 @@ clear.addEventListener('click', function () {
 });
 
 //local storage
-const allScores = localStorage.getItem('allScores');
+let allScores = localStorage.getItem('allScores');
 allScores = JSON.parse(allScores);
 console.log(allScores);
 
 if (allScores !== null) {
   for (var i = 0; i < allScores.length; i++) {
     //create li
-    const createLi = document.createElement('li');
+    var createLi = document.createElement('li');
     createLi.textContent = allScores[i].name + ' ' + allScores[i].score;
     highGemscore.appendChild(createLi); 
   }

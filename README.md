@@ -76,6 +76,9 @@ git clone https://github.com/christiecamp/js-gems.git
 
 ### ![demo](./mining-camp/branding/13.png)
 
+<p align="center">
+<img src="./mining-camp/demo/gem.gif"/>
+</p> 
 
 #
 

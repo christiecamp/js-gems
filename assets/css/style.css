@@ -48,7 +48,7 @@ textarea {
     margin: 20px;
 }
 
-#back-btn {
+#back {
     background-color: lightpink;
     position: relative;
     padding: 5px 5px;
@@ -60,7 +60,7 @@ textarea {
     text-align: center;
     text-decoration: none;
 }
-#clear-btn {
+#clear {
     background-color: lightpink;
     position: relative;
     padding: 5px 5px;

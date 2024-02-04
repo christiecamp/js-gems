@@ -125,7 +125,6 @@ function compare(event) {
             createDiv.textContent = 'wrong - the answer is: ' + questions[questionIndex].answer;
         }
     }
-
     //question index determines number question user is on
     questionIndex++;
     //if no more questions
@@ -138,3 +137,80 @@ function compare(event) {
     }
     gems.appendChild(createDiv);
 };
+
+//all done will append last page
+function allDone() {
+    gems.innerHTML = '';
+    timer.innerHTML = '';
+
+    //heading
+    var createH1 = document.createElement('h1');
+    createH1.setAttribute('id', 'createH1');
+    createH1.textContent = 'all done!';
+
+    gems.appendChild(createH1);
+
+    //paragraph
+    var createP = document.createElement('p');
+    createP.setAttribute('id', 'createP');
+
+    gems.appendChild(createP);
+
+    //time remaining
+    if (timeLeft >= 0) {
+        var timeRemaining = timeLeft;
+        var createP2 = document.createElement('p');
+        clearInterval(holdInterval);
+        createP.textContent = 'your final score is: ' + timeRemaining;
+
+        gems.appendChild(createP2);
+    }
+
+    //label
+    var createLabel = document.createElement('label');
+    createLabel.setAttribute('id', 'createLabel');
+    createLabel.textContent = 'enter your initials: ';
+
+    gems.appendChild(createLabel);
+
+    //input
+    var createInput = document.createElement('input');
+    createInput.setAttribute('type', 'text');
+    createInput.setAttribute('id', 'initials');
+    createInput.textContent = '';
+
+    gems.appendChild(createInput);
+
+    //submit
+    var createSubmit = document.createElement('button');
+    createSubmit.setAttribute('type', 'submit');
+    createSubmit.setAttribute('id', 'submit');
+    createSubmit.textContent = 'submit';
+
+    gems.appendChild(createSubmit);
+
+    //event listener to capture initials and score
+    createSubmit.addEventListener('click', function() {
+        var initials = createInput.value;
+
+        if (initials === null) {
+            console.log('no value entered!');
+        } else {
+            var finalScore = {
+                initials: initials,
+                score: timeRemaining
+            }
+            console.log(finalScore);
+            var allScores = localStorage.getItem('allScores');
+            if (allScores === null) {
+                allScores = [];
+            } else {
+                allScores = JSON.parse(allScores);
+            }
+            allScores.push(finalScore);
+            var newScore = JSON.stringify(allScores);
+            localStorage.setItem('allScores', newScore);
+            window.location.replace('highscores.html');
+        }
+    });
+}

@@ -1,12 +1,12 @@
 //questions
 const questions = [
     {
-        title: 'High quality opal is more valuable than diamonds',
+        title: 'high quality opal is more valuable than diamonds',
         choices: ['true', 'false'],
         answer: 'true'
     },
     {
-        title: 'which gem has the nickname of "water sapphire"',
+        title: 'which gem has the nickname of "water sapphire"?',
         choices: ['iolite', 'blue topaz', 'tanzanite', 'sapphire'],
         answer: 'iolite'
     },
@@ -31,7 +31,7 @@ const questions = [
         answer: 'zoicite'
     },
     {
-        title: 'how long does it take to grow a cultured pearl',
+        title: 'how long does it take to grow a cultured pearl?',
         choices: ['1-3 years', '4-6 years', '7-9 years', '10-12 years'],
         answer: '1-3 years'
     },
@@ -41,7 +41,7 @@ const questions = [
         answer: 'false'
     },
     {
-        title: `the phenomenon of cat's eye (or tiger's eye) is called`,
+        title: `the phenomenon of cat's eye (or tiger's eye) is called?`,
         choices: ['asterism', 'adularescence', 'chatoyancy', 'play of color'],
         answer: 'chatoyancy'
     },
@@ -59,7 +59,7 @@ var questionIndex = 0;
 const container = document.querySelector('#container');
 const timer = document.querySelector('#timer');
 const gems = document.querySelector('#gems');
-const enter = document.querySelector('#enter-btn');
+const enter = document.querySelector('#enter');
 
 //timer
 var timeLeft = 76;
@@ -208,9 +208,11 @@ function allDone() {
                 allScores = JSON.parse(allScores);
             }
             allScores.push(finalScore);
+
             var newScore = JSON.stringify(allScores);
             localStorage.setItem('allScores', newScore);
-            window.location.replace('highscores.html');
+            //redirect to high scores page
+            window.location.replace('./gemscores.html');
         }
     });
 }

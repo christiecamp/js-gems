@@ -10,7 +10,7 @@ clear.addEventListener('click', function () {
 });
 
 //local storage
-let allScores = localStorage.getItem('allScores');
+var allScores = localStorage.getItem('allScores');
 allScores = JSON.parse(allScores);
 console.log(allScores);
 
@@ -18,7 +18,7 @@ if (allScores !== null) {
   for (var i = 0; i < allScores.length; i++) {
     //create li
     var createLi = document.createElement('li');
-    createLi.textContent = allScores[i].name + ' ' + allScores[i].score;
+    createLi.textContent = allScores[i].initials + ' ' + allScores[i].score;
     highGemscore.appendChild(createLi); 
   }
 }

@@ -69,3 +69,72 @@ var holdInterval = 0;
 var penalty = 10;
 //create new element
 var ulCreate = document.createElement('ul');
+
+//event listener for start button
+enter.addEventListener('click', function() {
+    if (holdInterval === 0) {
+        holdInterval = setInterval(function() {
+            timeLeft--;
+            timer.textContent = 'time: ' + timeLeft;
+
+            if (timeLeft <= 0) {
+                clearInterval(holdInterval);
+                allDone();
+                timer.textContent = 'time is up!';
+            }
+        }, 1000);
+    }
+    render(questionIndex);
+});
+
+//render questions
+function render(questionIndex) {
+    //clears existing data
+    gems.innerHTML = '';
+    ulCreate.innerHTML = '';
+    //loops through all info in array
+    for (var i = 0; i < questions.length; i++) {
+        //appends question title only
+        var userQuestion = questions[questionIndex].title;
+        var userChoices = questions[questionIndex].choices;
+        gems.textContent = userQuestion;
+    }
+    //new for each for question choices
+    userChoices.forEach(function (newItem) {
+        var listItem = document.createElement('li');
+        listItem.textContent = newItem;
+        gems.appendChild(ulCreate);
+        ulCreate.appendChild(listItem);
+        listItem.addEventListener('click', (compare));
+    });
+};
+
+//compare choices with answer
+function compare(event) {
+    var element = event.target;
+    if (element.matches('li')) {
+        var createDiv = document.createElement('div');
+        createDiv.setAttribute('id', 'createDiv');
+        //correct condition
+        if (element.textContent == questions[questionIndex].answer) {
+            score++;
+            createDiv.textContent = 'correct - the answer is:  ' + questions[questionIndex].answer;
+        } else {
+            //will deduct -10 seconds off time for wrong answers
+            timeLeft = timeLeft - penalty;
+            createDiv.textContent = 'wrong - the answer is: ' + questions[questionIndex].answer;
+        }
+    }
+
+    //question index determines number question user is on
+    questionIndex++;
+    //if no more questions
+    if (questionIndex >= questions.length) {
+        //all done will append last page with user stats
+        allDone();
+        createDiv.textContent = 'end of quiz - ' + 'you got  ' + score + '/' + questions.length + ' correct!';
+    } else {
+        render(questionIndex);
+    }
+    gems.appendChild(createDiv);
+};

@@ -32,11 +32,13 @@
 </p>
 
 ### ![acceptance-criteria](./mining-camp/branding/10.png)
+
 <!-- <p align="center">
   <img src="./mining-camp/branding/ac.png"/>
 </p> -->
 
 ### ![gem-list](./mining-camp/branding/11.png)
+
 <p align="center">
   <img src="./mining-camp/branding/gem-list.png"/>
 </p>
@@ -47,7 +49,7 @@
 
 ##### *Clone the repository in your local development enviornment.*
 
-```
+```javascript
 git clone https://github.com/christiecamp/js-gems.git
 ```
 
@@ -57,14 +59,24 @@ git clone https://github.com/christiecamp/js-gems.git
 
 **INSTRUCTIONS:**
 
-1. Open the quiz in your local host browser, or through [github's website link](https://christiecamp.github.io/js-gems/). To clone the repository in your local dev enviornment, follow the [installation](#installation) guidelines.
+1. Open the quiz in your local host browser, or through the deployed [link](https://christiecamp.github.io/js-gems/). To clone the repository in your local dev enviornment, follow the [installation](#installation) guidelines.
 
-2. Interact with `JAVASCRIPT GEM's` quiz by answering each question in the allotted time given.
+2. Interact with `JAVASCRIPT GEM's` quiz by answering each question during the allotted time given.
       ##### view [demo videos](#demo)
 3. View your gemscore, and all high gemscores by clicking the **High Gemscores** link.
 
 ### ![screenshot](./mining-camp/branding/12.png)
+
+##### *screenshot demonstrates `JAVASCRIPT GEM's` timed quiz in the **local browser***
+
+<p align="center">
+<img src="./mining-camp/demo/ss.png"/>
+</p> 
+
+
 ### ![demo](./mining-camp/branding/13.png)
+
+
 #
 
 ### ![license](./mining-camp/branding/5.png)
@@ -75,6 +87,8 @@ git clone https://github.com/christiecamp/js-gems.git
 ### ![links](./mining-camp/branding/6.png)
 
 ##### [*github repo*](https://github.com/christiecamp/js-gems)
+
+##### [*deployed app*](https://christiecamp.github.io/js-gems/)
 
 ### ![connect](./mining-camp/branding/7.png)
 
